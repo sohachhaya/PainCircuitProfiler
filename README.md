@@ -153,6 +153,39 @@ PainCircuitProfiler/
 
 ---
 
+## Example Visualizations
+
+### Gene Expression Heatmap
+![Gene Expression Across Pain Regions](outputs/01_expression_heatmap.png)
+*ISH expression energy for opioid receptors and peptides across pain circuit regions.*
+
+### Connectivity Matrix
+![Connectivity Heatmap](outputs/02_connectivity_heatmap.png)
+*Projection strength between pain regions (log₁₀ scale). Darker colors indicate stronger projections.*
+
+### Network Graphs by Receptor
+
+**Mu-opioid receptor (Oprm1)**
+![Oprm1 Network](outputs/03_network_Oprm1.png)
+
+**Delta-opioid receptor (Oprd1)**
+![Oprd1 Network](outputs/03_network_Oprd1.png)
+
+**Kappa-opioid receptor (Oprk1)**
+![Oprk1 Network](outputs/03_network_Oprk1.png)
+
+*Directed network visualizations showing connectivity weighted by projection strength. Node colors represent gene expression levels.*
+
+### Hub Score Rankings
+![Hub Scores](outputs/04_hub_scores.png)
+*Ranked hub scores showing which regions are best positioned to influence opioid signaling.*
+
+### Integrated Dashboard
+![Integrated Dashboard](outputs/05_integrated_dashboard.png)
+*Four-panel summary combining expression, connectivity, network structure, and hub metrics.*
+
+---
+
 ## Customising the Analysis
 
 ### Use a different region set
